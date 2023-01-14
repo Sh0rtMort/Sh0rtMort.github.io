@@ -1,5 +1,5 @@
 [HTML5 Boilerplate homepage](https://html5boilerplate.com/) | [Documentation
-table of contents](TOC.md)
+table of contents](doc/TOC.md)
 
 # The HTML
 
@@ -116,6 +116,7 @@ control over the UI of a saved site or web app on a mobile device.
 It's linked to from the HTML as follows:
 
 ```html
+
 <link rel="manifest" href="site.webmanifest">
 ```
 
