@@ -141,29 +141,32 @@ footer {
 }
 
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1400px)  {
+  body {
+    background-image: url("BackgroundColor.png");
+    background-repeat: no-repeat;
+    background-size: 100rem 47.5rem;
+    background-attachment: scroll;
+  }
   .container-main {
+    position: relative;
+    top: 10px;
+    left: 10px;
     margin: 0;
     width: 40%;
-    height: 30%;
+    height: 10em;
   }
 
   .col-12 {
-    top: 0;
+    top: -9em;
     left: 0;
     width: 100%;
     height: 100%;
   }
 
-  .home-logo1 {
-    position: absolute;
-    top: 60%;
-    left: 25%;
-    width: 50%;
-    height: 60%;
-  }
-
   .parallax {
+    position: relative;
+    top: 6em;
     background-image: url("Mountains.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -190,7 +193,17 @@ footer {
     transition: all 0.4s ease-in-out;
   }
 
+  .home-logo1 {
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    width: 50%;
+    height: 60%;
+  }
+
   .h1-wrapper {
+    position: relative;
+    /*top: -10em;*/
     font-style: normal;
     opacity: 1;
     transition: all 0.8s ease-in-out;
@@ -205,10 +218,13 @@ footer {
 
   .margin1 {
     margin: 20% 0;
+    background: none;
   }
 
-  .margin {
-    margin: 20% 0;
+  .margin2 {
+    margin: 0 0;
+    /*background-image: url("BackgroundColor.png");*/
+    background: none;
   }
 
   .fade-in {
@@ -220,7 +236,7 @@ footer {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-  .parallax-inner {
+  .parallax {
     background: none;
   }
 }
